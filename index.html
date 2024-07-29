@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>My Portfolio</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-switcher">Dark Mode</button>
+        <div class="hamburger" >
+          <span class="bar" ></span>
+          <span class="bar" ></span>
+          <span class="bar" ></span>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="home-content">
+        <h1>Welcome to my portfolio</h1>
+        <p>
+          Occaecat fugiat duis non nisi nulla adipisicing sunt aute adipisicing
+          velit veniam. Anim ex culpa irure amet in fugiat labore amet ipsum
+          reprehenderit. Cillum duis ex excepteur nisi aliqua eiusmod. Cillum
+          dolore commodo deserunt commodo quis proident magna dolor commodo ut
+          qui excepteur. Qui consequat consectetur consequat aliqua anim duis
+          non enim anim anim fugiat occaecat.
+        </p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About me</h2>
+      <p>
+        Proident irure do ex reprehenderit fugiat ex proident excepteur ullamco
+        ex nulla sunt sunt fugiat. Sint esse pariatur consectetur amet mollit
+        exercitation non eiusmod dolore incididunt aliquip aute do. Qui aliqua
+        laboris tempor culpa ullamco tempor. Qui sunt aliqua incididunt irure
+        consectetur qui velit non aliquip ex.
+      </p>
+    </section>
+
+    <section id="portfolio">
+      <h2>My Projects</h2>
+      <div class="project-gallery">
+        <div>
+          <h3>Project 1</h3>
+          <img
+            width="200px"
+            src="https://images.pexels.com/photos/27219316/pexels-photo-27219316/free-photo-of-digital-cameras-and-clapboard.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+            alt="project1"
+          />
+          <p>
+            Incididunt consectetur consectetur enim mollit. Eiusmod in aute
+            mollit commodo tempor do proident est. Tempor in irure commodo
+            aliqua. Nisi incididunt aliquip laboris qui consequat culpa
+            excepteur eu voluptate. Mollit ea mollit nostrud labore. Do irure
+            elit proident laboris veniam elit laboris. Elit veniam sit officia
+            amet enim sit.
+          </p>
+        </div>
+
+        <div>
+          <h3>Project 2</h3>
+          <img
+            width="200px"
+            src="./public/images/project2.jpg"
+            alt="project2"
+          />
+          <p>
+            Incididunt consectetur consectetur enim mollit. Eiusmod in aute
+            mollit commodo tempor do proident est. Tempor in irure commodo
+            aliqua. Nisi incididunt aliquip laboris qui consequat culpa
+            excepteur eu voluptate. Mollit ea mollit nostrud labore. Do irure
+            elit proident laboris veniam elit laboris. Elit veniam sit officia
+            amet enim sit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-from">
+        <div class="form-group">
+          <label for="name"> Your Name</label>
+          <input type="text" placeholder="Enter your name" required />
+          <span></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email"> Your Email</label>
+          <input type="email" placeholder="Enter your email" required />
+          <span></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email"> Your Message</label>
+          <textarea placeholder="Enter your message" required> </textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer><p>© 2024 MyPortfolio. All rights reserved</p></footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
