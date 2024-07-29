@@ -8,7 +8,7 @@ hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active')
 })
 
-//
+//something
 
 
 const themeSwitcher = document.getElementById('theme-switcher');
